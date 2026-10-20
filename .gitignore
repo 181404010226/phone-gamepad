@@ -1,0 +1,17 @@
+__pycache__/
+*.py[cod]
+*.log
+*.apk
+*.idsig
+*.exe
+*.jks
+*.keystore
+signing.json
+config.json
+.venv/
+build/
+dist/
+work/
+release/
+*.spec
+release-check.json

@@ -1,0 +1,17 @@
+vgamepad 0.1.0 (MIT)
+Project: https://github.com/yannbouteiller/vgamepad
+Source: https://pypi.org/project/vgamepad/0.1.0/
+Original sdist SHA256:
+57f6bd01aec0c172947517fb782d150ef9b285f7f4d524c317374fa5c24a89de
+Only the original Python package and x86/x64 ViGEmClient DLLs are included.
+The upstream setup.py and its legacy 1.17 driver installer are not executed or shipped.
+Original license: vendor/VGAMEPAD_LICENSE.txt
+
+ViGEmClient (MIT), ViGEmBus (BSD 3-Clause)
+Project: https://github.com/nefarius/ViGEmBus
+Driver installer: official ViGEmBus release v1.22.0
+https://github.com/nefarius/ViGEmBus/releases/tag/v1.22.0
+License: vendor/VIGEM_LICENSE.txt
+ViGEmClient license: vendor/VIGEMCLIENT_LICENSE.txt
+InstallDriver.ps1 checks the Windows Authenticode signature and Nefarius publisher
+before launching the original installer. No silent kernel driver installation occurs.

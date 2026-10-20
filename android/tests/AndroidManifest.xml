@@ -1,0 +1,5 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="com.localcoop.phonepad.tests">
+    <uses-sdk android:minSdkVersion="26" android:targetSdkVersion="35" />
+    <application android:label="PhonePad touch tests" />
+    <instrumentation android:name="com.localcoop.phonepad.tests.TouchTests" android:targetPackage="com.localcoop.phonepad" android:label="PhonePad device touch tests" />
+</manifest>
